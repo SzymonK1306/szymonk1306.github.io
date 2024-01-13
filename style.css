@@ -1,10 +1,10 @@
 body {
-    background-color:black;
+    background-color:#E1DFC5;
     margin:0 !important;
     font-size: 24px;
 }
 a {
-    color:silver;
+    color: #294F40;
 }
 .left{
     float:left;
@@ -26,10 +26,9 @@ header {
     stroke-width:5;
 }
 #tytuł {
-    position: relative;
-    float:left;
-    width:50%;
+    width:100%;
     text-align: center;
+    margin: auto;
 }
 #wrapper{
     width:100%;
@@ -47,10 +46,10 @@ header {
 nav {
     width: 100%;
     padding: 10px 0;
-    background-color: rgb(209, 1, 1);
+    background-color: #A4B88F;
     text-align: center;
-    border-top: 1px solid saddlebrown;
-    border-bottom: 1px solid saddlebrown;
+    border-top: 1px solid #707864;
+    border-bottom: 1px solid #707864;
     
 }
 footer {
@@ -60,7 +59,7 @@ footer {
     color:white;
     text-align: center;
     font-size: 18px;
-    background-color: rgb(209, 1, 1);
+    background-color: #A4B88F;
 
 }
 footer a{
@@ -122,16 +121,16 @@ ol > li {
     color:white;
     float:left;
     width:200px;
-    border-right: 1px dashed rgb(73, 8, 8);
+    border-right: 1px dashed black;
 }
 ol>li:first-child {
-    border-left:1px dashed rgb(73, 8, 8) ;
+    border-left:1px dashed black ;
 }
 ol>li:hover {
-    background-color: rgb(241, 75, 75);
+    background-color: #F1CBB5;
 }
 ol>li:hover>a {
-    color:darkred;
+    color:#D29775;
 }
 ol>li>ul {
     list-style-type: none;
@@ -144,19 +143,19 @@ ol>li:hover>ul{
     display:block;
 }
 ol>li>ul>li {
-    background-color: rgb(241, 75, 75) ;
+    background-color: #F1CBB5;
     position:relative;
     z-index:100;
-    border-top: 1px solid rgb(73, 8, 8) ;
+    border-top: 1px solid black;
 }
 ol>li>ul>li:hover {
     background-color:rgb(209, 1, 1);
 }
 ol>li>ul>li:hover >a{
-    color: darkred;
+    color: #D29775;
 }
 #content {
-    color:silver;
+    color:#294F40;
     margin-top: 60px;
     width: 1020px;
     margin-left: auto;
@@ -236,11 +235,11 @@ h1,h2,h3,h4 {
     padding:20px;
     max-width: 319px;
 }
-#znakiobrazek {
+#logo_img {
     text-align: center;
     padding:20px;
 }
-#znakiobrazek img {
+#logo_img img {
     max-width: 750px;
 }
 table {
