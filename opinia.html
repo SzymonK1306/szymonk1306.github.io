@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Wiedźmin </title>
+        <meta name="author" content="Szymon Kryzel"/>
+		<meta name="description" content= "Strona poświecona uniwersum wiedźmina obejmująca książki, gry, seriale. Materiał obowiązkowy dla każdego fana Geralta z Rivii."/>
+		<meta name="keywords" content="wiedźmin, Geralt, Sapkowski,"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <div id=logo>
+                    <div class="znak">
+                        <svg height="100" width="500" class=znaki>
+                            <polyline points="50,10 27,50 73,50 55,17" style="stroke:red;" />
+                        </svg>
+                    </div>
+                    <div class="znak">
+                        <svg height="100" width="500" class=znaki>
+                            <polyline points="45,25 60,25 73,10 27,10 50,50 60,35" style="stroke:rgb(208, 255, 0);" />
+                        </svg>
+                    </div>
+                    <div id="tytuł"><a id="początek">Wiedźmin</a></div>
+                    <div class="znak">
+                        <svg height="100" width="500" class=znaki>
+                            <polyline points="41,25 50,10 73,50 27,50 38,35 50,35" style="stroke:rgb(0, 195, 255);" />
+                        </svg>
+                    </div>
+                    <div class="znak">
+                        <svg height="100" width="500" class=znaki>
+                            <polyline points="73,10 27,10 50,50 68,17" style="stroke:rgb(0, 255, 13);" />
+                        </svg>
+                    </div>
+                </div>
+               
+               
+                
+            </header>
+            <div class="pusty"></div>
+            <nav>
+                <ol>
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="bohaterowie.html">Bohaterowie</a>
+                        <ul>
+                            <li><a href="geralt.html">Geralt</a></li>
+                            <li><a href="yennefer.html">Yennefer</a></li>
+                            <li><a href="ciri.html">Ciri</a></li>
+                            <li><a href="jaskier.html">Jaskier</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="formy.html">Formy</a>
+                        <ul>
+                            <li><a href="ksiazki.html">Książki</a></li>
+                            <li><a href="gry.html">Gry</a></li>
+                            <li><a href="seriale.html">Seriale</a></li>
+                            <li><a href="musical.html">Musical</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="wiedzmini.html">Wiedźmini</a></li>
+                    <li><a href="opinia.html">Opinia</a></li>
+                </ol>
+            </nav>
+            <div id="content">
+                <h1>Opinia</h1>
+                <form id="formularz" action="feedback.html" >
+                <label for="imię">Imię: </label>
+                <input type="text" id="imię"><br/>
+                <label for="nazwisko">Nazwisko: </label>
+                <input type="text" id="nazwisko"><br/>
+                <label for="email">email: </label>
+                <input type="text" id="email"><br/>
+                Płeć: 
+                <label for="mężczyzna">Mężczyzna: </label>
+                <input type="radio" id="mężczyzna" name="płeć">
+                <label for="kobieta">Kobieta: </label>
+                <input type="radio" id="kobieta" name="płeć"><br/>
+                Wykształcenie: 
+                <select name="wykształcenie" id="wykształcenie">
+                    <option value="0">Wybierz swoje wykształcenie</option>
+                    <option value="podstawowe">Podstawowe</option>
+                    <option value="gimnazjalne">Gimnazjalne</option>
+                    <option value="średnie">Średnie</option>
+                    <option value="wyższe">Wyższe</option>
+                </select><br/>
+                Wyraź swoją opinię na temat strony<br/>
+                <textarea rows="10" cols="80">
+                </textarea>
+                <br/>
+                <label for="RODO" >Zgadzam się na przetwarzanie moich danych osobowych</label>
+                <input type="checkbox" id="RODO"><br/>
+                <input type="submit">
+                <input type="reset">
+                </form>
+            </div>
+            <footer>
+                <a href="#początek"> Do początku strony </a>
+                <br/>
+                <br/>
+                Wiedźmin.pl &copy; 2020 
+            </footer>
+        </div>
+    </body>
+</html>
